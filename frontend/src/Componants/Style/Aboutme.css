@@ -1,0 +1,156 @@
+.Aboutme-section{
+    width: 100%;
+    min-height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aboutme-section h2{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    animation: xx-scroll 9000ms ease ;
+
+}
+
+.Photop{
+  animation: x-scroll 9000ms ease infinite;
+  margin-bottom: 10px;
+}
+
+
+.profil-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50;
+    padding: 100px 20px;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.profil-section-text p{
+    color: #fff;
+    font-size: 22px;
+    text-align: left;
+    margin: auto;
+    animation: xx-scroll 9000ms ease ;
+
+}
+.skils-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50;
+    padding: 70px 20px;
+    flex-wrap: wrap;
+    animation: xx-scroll 9000ms ease;
+
+}
+
+.icon{
+    margin: 10px;
+    font-size: 45px;
+    
+
+
+}
+
+.icon:hover{
+    transform: rotate(4680deg);
+    transition: all 4.9s ease-in-out;
+}
+
+/* Aboutme.css */
+
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .Aboutme-section {
+      padding: 0px;
+    }
+  
+    .profil-section {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 20px;
+    }
+  
+
+    .Photop{
+      animation: infinite-scroll 9000ms ease ;
+
+    }
+    .profil-section-text {
+      text-align: center;
+    }
+
+    .Aboutme-section h2{
+        color: #fff;
+        font-size: 1.4em;
+        font-weight: 500;
+        animation: infinite-scroll 9000ms ease ;
+
+    }
+
+    .profil-section-text p{
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        margin:0px 20px ;
+        padding: 0px 20px;
+        animation: infinite-scroll 9000ms ease ;
+        
+    }
+  
+    .skils-section {
+      flex-direction: row;
+      align-items: center;
+      padding: 30px 10px;
+      gap: 10;
+    }
+  
+    .icon {
+      margin: 10px;
+      font-size: 50px;
+    }
+  }
+  
+
+  @keyframes infinite-scroll{
+    0% {
+      transform: translateY(-30px);
+    }
+    
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes x-scroll{
+    0% {
+      transform: translatex(0);
+    }
+    50% {
+      transform: translatex(-30px);/* 100vh represents the full viewport height */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes xx-scroll{
+    0% {
+      transform: translatex(-20px);
+    }
+    100% {
+      transform: translatex(0);/* 100vh represents the full viewport height */
+    }
+    
+  }

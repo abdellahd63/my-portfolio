@@ -1,0 +1,186 @@
+.Contact-section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-section h2{
+    color: white;
+    font-weight: 300;
+    font-size: 35px;
+    padding: 50px 0px;
+}
+
+.Contact-section p{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.contactbtnicon{
+    font-size: 25px;
+    fill: #fff;
+}
+
+.buttonsct{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50;
+}
+.contact-btn{
+    display: flex;
+    width: 260px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact-btn h6{
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.LINBTN{
+    color: #0b66c2;
+    fill: #0b66c2;
+    background-color: transparent; /* Default background color */
+    background-image: linear-gradient(90deg, transparent 0%, transparent 100%); /* Background gradient for animation */
+    background-size: 100% 100%; /* Initial gradient size */
+    transition: 1s linear; /* Add a transition for all properties */
+
+}
+
+
+
+
+.Email-title{
+    color: #BB011B;
+}
+
+.Gmail{
+    fill: #BB011B;
+}
+
+.Instagram-title{
+    color:#d6249f ;
+}
+
+.Instagram{
+    fill: #d6249f;
+}
+
+
+
+.Gbtn{
+    background-color: transparent; /* Default background color */
+    background-image: linear-gradient(90deg, transparent 0%, transparent 100%); /* Background gradient for animation */
+    background-size: 100% 100%; /* Initial gradient size */
+    transition: 1s linear;
+}
+
+.insbtn{
+    background-color: transparent; /* Default background color */
+    background-image: linear-gradient(90deg, transparent 0%, transparent 100%); /* Background gradient for animation */
+    background-size: 100% 100%; /* Initial gradient size */
+    transition: 1s linear;
+}
+
+.LINBTN:hover  {
+    background-color: #0b66c2;
+    background-image: linear-gradient(90deg, #0b66c2 0%, #0b66c2 100%); /* Gradient for animation */
+    background-size: 100% 100%;
+    transition: 500ms ease-in;
+
+}
+
+.LINBTN:hover .linkedin {
+    fill: #fff;
+    transition: 500ms ease-in;
+}
+
+.LINBTN:hover .linkedin-title {
+    color: #fff;
+    transition: 500ms ease-in;
+}
+
+
+.Gbtn:hover  {
+    background-color: #BB011B;
+    background-image: linear-gradient(90deg, #BB011B 0%, #BB011B 100%); /* Gradient for animation */
+    background-size: 100% 100%;
+    transition: 500ms ease-in;
+
+
+}
+
+.Gbtn:hover .Gmail {
+    fill: #fff;
+    transition: 500ms ease-in;
+}
+
+.Gbtn:hover .Email-title {
+    color: #fff;
+    transition: 500ms ease-in;
+}
+
+
+.insbtn:hover  {
+    background-color: #d6249f;
+    background-image: linear-gradient(90deg, #d6249f 0%, #d6249f 100%); /* Gradient for animation */
+    background-size: 100% 100%;
+    transition: 500ms ease-in;
+
+    transition: 500ms ease-in;
+
+}
+
+.insbtn:hover .Instagram {
+    fill: #fff;
+    transition: 500ms ease-in;
+}
+
+.insbtn:hover .Instagram-title {
+    color: #fff;
+    transition: 500ms ease-in;
+}
+
+
+.box a{
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .buttonsct{
+        display: flex;
+        flex-direction: column;
+        gap: 5;
+    }
+
+    .Contact-section h2{
+        font-size: 1.0em;
+        padding: 20px 0px;
+    }
+
+    .Contact-section p{
+        font-size: 16px;
+        margin: 10px 20px;
+    }
+
+    .contact-btn{
+
+        margin: 10px 20px;
+        
+    }
+  }

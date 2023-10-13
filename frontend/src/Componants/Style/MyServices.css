@@ -1,0 +1,169 @@
+.Myservices-section{
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Myservices-section h2{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 300;
+    padding-bottom: 100px;
+    animation: infinite-scroll 000ms ease ;
+
+}
+
+
+.Service-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+.ProjectCard {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  width: 300%; /* Three images side by side */
+  transition: transform 0.5s ease;
+}
+
+
+
+/* Buttons for next and previous */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+.projectimage{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.service-section-text{
+    flex-direction: column;
+    color: #fff;
+    margin-left: 10px;
+    
+}
+
+.service-section-text p{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.service-section-text h1{
+    color: transparent;
+    background-clip: text;
+}
+
+.projectskills .icon1{
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .Myservices-section {
+      padding: 20px;
+    }
+
+    .Myservices-section h2{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 300;
+        padding-bottom: 10px;
+    }
+  
+    .Service-section {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .ProjectCard{
+        
+    
+        margin-right: 0px;
+    }
+    
+
+
+
+    
+  
+    .projectimage {/* Adjust as needed */
+      height: auto;
+    }
+  
+    .service-section-text {
+      text-align: left;
+      margin-left: 0px;
+    }
+  
+    .test {
+      font-size: 1.2rem;
+      margin: 15px 0px;
+     /* Adjust font size as needed */
+    }
+
+    .service-section-text p{
+        font-size: 14px;
+        margin: 15px 0px;
+      }
+  
+    .projectskills {
+      flex-direction: column;
+      align-items: center;
+      justify-content: left;
+    }
+  }
+
+
+
+  @keyframes infinite-scroll{
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(30px);/* 100vh represents the full viewport height */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
