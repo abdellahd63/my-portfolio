@@ -6,7 +6,7 @@ import { SiGmail } from 'react-icons/si'
 
 const Contact = () => {
   return (
-    <section className='Contact-section' id='myproject'>
+    <section className='Contact-section' id='contact'>
     <h2>Contact</h2>
 
     <p>Do you appreciate my work and are you interested in collaborating with me? <br/>

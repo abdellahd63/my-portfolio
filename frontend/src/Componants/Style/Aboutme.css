@@ -50,14 +50,15 @@
     gap: 50;
     padding: 70px 20px;
     flex-wrap: wrap;
-    animation: xx-scroll 9000ms ease;
+    animation: y-scroll 9000ms ease;
+
+   
 
 }
 
 .icon{
     margin: 10px;
     font-size: 45px;
-    
 
 
 }
@@ -139,6 +140,18 @@
     }
     50% {
       transform: translatex(-30px);/* 100vh represents the full viewport height */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes y-scroll{
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);/* 100vh represents the full viewport height */
     }
     100% {
       transform: translateY(0);

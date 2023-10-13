@@ -40,7 +40,7 @@ function Aboutme(){
                 for new experiences and greater challenges.</p>
             </div>
         </div>
-        <h2 >My Skills</h2>
+        <h2 id='myskills' >My Skills</h2>
         <div className='skils-section'>
             
             <img src={react}className='icon' width={55} height={55}/>
