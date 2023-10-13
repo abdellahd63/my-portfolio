@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.9b47fcf4.css",
+    "main.js": "/my-portfolio/static/js/main.6bdaacde.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/PORTFOLIOPHOTO.png": "/my-portfolio/static/media/PORTFOLIOPHOTO.ab4c9eff2e21a44ff055.png",
+    "static/media/Coincountweb.jpg": "/my-portfolio/static/media/Coincountweb.a9287212a0c9ed69d200.jpg",
+    "static/media/CoinCountapp.jpg": "/my-portfolio/static/media/CoinCountapp.38f39e39adf175491852.jpg",
+    "static/media/web.jpg": "/my-portfolio/static/media/web.ad14a9cdf994d0b489b3.jpg",
+    "static/media/app.jpg": "/my-portfolio/static/media/app.f37725ae948f13942b8a.jpg",
+    "static/media/tahwissa.png": "/my-portfolio/static/media/tahwissa.c76a9d29b0cc6f1403ea.png",
+    "static/media/sonelgazp2.jpeg": "/my-portfolio/static/media/sonelgazp2.8387436820be2aa29cf1.jpeg",
+    "static/media/sonelgazp1.jpeg": "/my-portfolio/static/media/sonelgazp1.c35838f646bb10632205.jpeg",
+    "static/media/azcodes.png": "/my-portfolio/static/media/azcodes.0622d8cd73d170239bfd.png",
+    "static/media/logo.svg": "/my-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.9b47fcf4.css.map": "/my-portfolio/static/css/main.9b47fcf4.css.map",
+    "main.6bdaacde.js.map": "/my-portfolio/static/js/main.6bdaacde.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b47fcf4.css",
+    "static/js/main.6bdaacde.js"
+  ]
+}
