@@ -168,6 +168,14 @@
         gap: 5;
     }
 
+
+    .Contact-section h2{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 300;
+        padding-bottom: 10px;
+    }
+
     .Contact-section h2{
         font-size: 1.0em;
         padding: 20px 0px;
