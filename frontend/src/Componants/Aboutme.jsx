@@ -34,7 +34,7 @@ function Aboutme(){
           </div>
             <div className='profil-section-text'>
             <h2 >About me</h2>
-                <p>Hi , I’m Abdallah DEKKICHE, currently Mater 1 software engineering <br/>
+                <p>Hi , I’m Abdallah DEKKICHE, currently Master 1 software engineering <br/>
                 student at  University of SAAD DAHLEB BLIDA 1 .<br/>
                 I’m mobile application & web developer , Ui UX designer always looking <br/>
                 for new experiences and greater challenges.</p>
